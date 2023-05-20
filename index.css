@@ -8,3 +8,10 @@ p{
 h2{color: chocolate;}
 a{color: purple;}
 address{color: purple;}
+
+.list-container
+{
+
+      display: flex;
+      justify-content: center;
+ }
