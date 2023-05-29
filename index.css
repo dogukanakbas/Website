@@ -1,17 +1,105 @@
-body{background-color: azure;}
-li{color: purple;}
-p{
-    color: blue;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h2{color: chocolate;}
-a{color: purple;}
-address{color: purple;}
 
-.list-container
-{
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-      display: flex;
-      justify-content: center;
- }
+/* Navbar stil */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* İçerik stil */
+section {
+    margin-top: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+.list-container ol,
+.list-container ul {
+    margin-left: 20px;
+}
+
+/* Footer stil */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contact-container h3,
+footer .social-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-container ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
